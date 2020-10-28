@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600&family=Roboto:wght@500;700;900&family=Source+Sans+Pro:wght@200;400;600;700&display=swap');
+
+/* font fam
+font-family: 'Assistant', sans-serif; text
+font-family: 'Roboto', sans-serif; name
+font-family: 'Source Sans Pro', sans-serif; heading
+ */
+
+/* *{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+.container
+{
+    width: 1000px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    box-shadow: 2px 2px 6px  #335384a4;
+    overflow: hidden;
+}
+/* common items */
+
+h6
+{
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing:5px;
+    color: #5ba7d1;
+}
+a,p{
+    font-family: 'Assistant', sans-serif;
+}
+p{
+    letter-spacing:1.2px;
+    word-spacing: 3px;
+    font-weight: 400;
+}
+i
+{
+    color: #e9e9e9e9;
+}
+/* common icon */
+.contact-details i,.co-details i,.bio-details i 
+{
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-bottom: 23px;
+}
+/* resume left */
+.dp 
+{
+    margin:50px auto 95.5px 45px;
+    opacity:0.90;
+}
+.profile-left
+{
+    background-color: #335384;
+    color: #e9e9e9e9;
+}
+.profile-content
+{
+     
+}
+.profile-left h6
+{
+    margin: 44px 0px 25px 37px;
+    /* border-bottom: #e7e7e7e7 1px solid;
+    border-width: thin;
+    padding-bottom: 2px; */
+    color: #f5f5f5e3;
+    letter-spacing:6px;
+
+}
+.profile-left a
+{
+    font-size:13px;
+    text-decoration: none;
+    letter-spacing:1px;
+    
+}
+/* contact details */
+.contact-details a
+{
+    text-align: justify;
+}
+/* specific icon  */
+.fa-map-marker
+{
+    margin-left: 38px !important;
+}
+.fa-envelope-open
+{
+    margin-left:33px !important;
+}
+/* skills summary */
+.rating-star
+{
+    display: inline;
+    margin:0px 25px 0px 35px;
+    font-size: 13px;
+}
+.rating-star i
+{
+    letter-spacing: 4px;
+    margin-bottom: 23px;
+}
+/* personal bio */
+/* .personal-bio,.contact,.co-activities,.skills-rating
+{
+    margin-bottom: 50px;
+}
+*/
+.personal-bio
+{
+    margin-bottom: 40px;
+}
+.dropdown-divider
+{
+    visibility: hidden;
+    color: #e1e1e19d;
+}
+/* --------------- -----------*/
+/* ------Right Resume-------- */
+/* -------------- ------------*/
+.details-right
+{
+    background-color: #fffffe;
+}
+.right-resume
+{
+    margin-left:30px;
+}
+h1
+{
+    font-size: 36px;
+    color:  #335384;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing:3px;
+    margin-top: 110px;
+
+    
+}
+h1::after
+{
+    content: '';
+    margin:25px 0 25px 0;
+    width: 100px;
+    height: 2.5px;
+    border-radius: 3px;
+    display: block;
+    background-color: #335384b0;
+}
+h4
+{
+    font-size:18px;
+    letter-spacing:5px;
+    color: #5ba7d1;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom:83px;
+}
+.right-resume h6
+{
+    font-size:15px;
+    margin-top:45px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.right-resume i
+{
+    color: #5ba7d1;
+    font-size: 18px;
+    margin-right:20px;
+}
+.edu-history i,
+.personal-details i
+{
+    font-size: 21px;
+}
+.board
+{
+    letter-spacing: 2px;
+    font-size:15px;
+    color: #444444a9;
+    font-weight: 700;
+    margin-bottom:16px;
+    margin-top:25px;
+}
+.edu-history p
+{
+    line-height: 14px;
+    text-transform: capitalize;
+}
+.light-head
+{
+    color: #444440;
+    font-weight: 600;
+}
+.college p:last-child,
+.hsc p:last-child,
+.sslc p:last-child
+
+{
+    color: #444440;
+    font-weight: 400;
+    margin-bottom:28px;
+    word-spacing: 3px;
+}
+.interest li,
+.project-list li
+{
+    margin-bottom:15px;
+}
+.download
+{
+    width:100px;
+    height:100px;
+    background-color:#335384;
+    border-radius: 50%;
+    float: right;
+    margin-right: -65px;
+    margin-bottom: -45px;
+   
+}
+.download a 
+{
+    margin-top:8px;
+   float: left;
+   margin-left:20px;
+}
+.download a i
+{
+    margin-top:15px;
+    color: #e9e9e9de;
+    font-size:23px;
+}
