@@ -64,6 +64,10 @@ i
 {
      
 }
+.profile-left i
+{
+    font-size:14px;
+}
 .profile-left h6
 {
     margin: 44px 0px 42px 37px;
@@ -240,3 +244,18 @@ h4
     color: #e9e9e9de;
     font-size:23px;
 }
+/* media print */
+@media print{
+    body{
+         -webkit-filter: drop-shadow(0.5px 0.5px 4px #33538463);
+    }
+    .container
+    {
+        visibility: visible;
+
+    }
+}
+/* webkit to print background color */
+body {
+    -webkit-print-color-adjust: exact !important;
+  }
