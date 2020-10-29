@@ -11,12 +11,20 @@ font-family: 'Source Sans Pro', sans-serif; heading
     padding: 0px;
     box-sizing: border-box;
 } */
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.671)) ,url(bg.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-clip: padding-box;
+    background-size:3000px;
+}
 .container
 {
    
     margin-top: 90px;
     margin-bottom: 90px;
-    box-shadow: 2px 2.5px 5px  #335384a4;
+    /* box-shadow: 2px 2.5px 5px  #335384a4; */
     overflow: hidden;
 }
 /* common items */
