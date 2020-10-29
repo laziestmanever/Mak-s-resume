@@ -6,264 +6,268 @@ font-family: 'Roboto', sans-serif; name
 font-family: 'Source Sans Pro', sans-serif; heading
  */
 
-/* *{
+* {
     border: 0px;
     padding: 0px;
     box-sizing: border-box;
-} */
-body
-{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.671)) ,url(bg.jpg);
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: padding-box;
-    background-size:3000px;
 }
-.container
-{
-   
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.671)), url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: padding-box;
+    background-size: 3000px;
+}
+
+.container {
+
     margin-top: 90px;
     margin-bottom: 90px;
     /* box-shadow: 2px 2.5px 5px  #335384a4; */
     overflow: hidden;
 }
+
 /* common items */
 
-h6
-{
+h6 {
     text-transform: uppercase;
-    font-weight:700;
+    font-weight: 700;
     font-size: 14px;
     font-family: 'Source Sans Pro', sans-serif;
-    letter-spacing:5px;
+    letter-spacing: 5px;
     color: #5ba7d1;
 }
-a,p{
+
+a,
+p {
     font-family: 'Assistant', sans-serif;
 }
-p{
-    letter-spacing:1.2px;
+
+p {
+    letter-spacing: 1.2px;
     word-spacing: 3px;
     font-weight: 400;
 }
-i
-{
+
+i {
     color: #e9e9e9e9;
 }
+
 /* common icon */
-.contact-details i,.co-details i,.bio-details i 
-{
+.contact-details i,
+.co-details i,
+.bio-details i {
     margin-left: 35px;
     margin-right: 25px;
     margin-bottom: 23px;
 }
+
 /* resume left */
-.dp 
-{
-    margin:50px auto 78px 40px;
-    opacity:0.90;
+.dp {
+    margin: 50px auto 78px 40px;
+    opacity: 0.90;
 }
-.profile-left
-{
+
+.profile-left {
     background-color: #335384;
     color: #e9e9e9e9;
 }
-.profile-content
-{
-     
+
+.profile-content {}
+
+.profile-left i {
+    font-size: 14px;
 }
-.profile-left i
-{
-    font-size:14px;
-}
-.profile-left h6
-{
+
+.profile-left h6 {
     margin: 44px 0px 42px 37px;
     /* border-bottom: #e7e7e7e7 1px solid;
     border-width: thin;
     padding-bottom: 2px; */
     color: #f5f5f5e3;
-    letter-spacing:6px;
+    letter-spacing: 6px;
 
 }
-.profile-left a
-{
-    font-size:13px;
+
+.profile-left a {
+    font-size: 13px;
     text-decoration: none;
-    letter-spacing:1px;
-    
+    letter-spacing: 1px;
+
 }
+
 /* contact details */
-.contact-details a
-{
+.contact-details a {
     text-align: justify;
 }
+
 /* specific icon  */
-.fa-map-marker
-{
+.fa-map-marker {
     margin-left: 38px !important;
 }
-.fa-envelope-open
-{
-    margin-left:33px !important;
+
+.fa-envelope-open {
+    margin-left: 33px !important;
 }
+
 /* skills summary */
-.rating-star
-{
+.rating-star {
     display: inline;
-    margin:0px 25px 0px 35px;
+    margin: 0px 25px 0px 35px;
     font-size: 13px;
 }
-.rating-star i
-{
+
+.rating-star i {
     letter-spacing: 4px;
     margin-bottom: 23px;
 }
+
 /* personal bio */
 /* .personal-bio,.contact,.co-activities,.skills-rating
 {
     margin-bottom: 50px;
 }
 */
-.personal-bio
-{
+.personal-bio {
     margin-bottom: 40px;
 }
-.dropdown-divider
-{
+
+.dropdown-divider {
     visibility: hidden;
     color: #e1e1e19d;
 }
+
 /* --------------- -----------*/
 /* ------Right Resume-------- */
 /* -------------- ------------*/
-.details-right
-{
+.details-right {
     background-color: #fffffe;
 }
-.right-resume
-{
-    margin-left:30px;
+
+.right-resume {
+    margin-left: 30px;
 }
-h1
-{
+
+h1 {
     font-size: 36px;
-    color:  #335384;
+    color: #335384;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    letter-spacing:3px;
+    letter-spacing: 3px;
     margin-top: 110px;
 
-    
+
 }
-h1::after
-{
+
+h1::after {
     content: '';
-    margin:25px 0 25px 0;
-    width:130px;
+    margin: 25px 0 25px 0;
+    width: 130px;
     height: 2.5px;
     border-radius: 3px;
     display: block;
     background-color: #335384b0;
 }
-h4
-{
-    font-size:18px;
-    letter-spacing:5px;
+
+h4 {
+    font-size: 18px;
+    letter-spacing: 5px;
     color: #5ba7d1;
     font-weight: 600;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-top:25px;
-    margin-bottom:41px;
+    margin-top: 25px;
+    margin-bottom: 41px;
     display: inline-block;
 }
-.right-resume h6
-{
-    font-size:15px;
-    margin-top:45px;
+
+.right-resume h6 {
+    font-size: 15px;
+    margin-top: 45px;
     margin-bottom: 20px;
     display: inline-block;
 }
-.right-resume i
-{
+
+.right-resume i {
     color: #5ba7d1;
     font-size: 18px;
-    margin-right:20px;
+    margin-right: 20px;
 }
+
 .edu-history i,
-.personal-details i
-{
+.personal-details i {
     font-size: 21px;
 }
-.board
-{
+
+.board {
     letter-spacing: 2px;
-    font-size:15px;
+    font-size: 15px;
     color: #444444a9;
     font-weight: 700;
-    margin-bottom:16px;
-    margin-top:25px;
+    margin-bottom: 16px;
+    margin-top: 25px;
 }
-.edu-history p
-{
+
+.edu-history p {
     line-height: 14px;
     text-transform: capitalize;
 }
-.light-head
-{
+
+.light-head {
     color: #444440;
     font-weight: 600;
 }
+
 .college p:last-child,
 .hsc p:last-child,
-.sslc p:last-child
-
-{
+.sslc p:last-child {
     color: #444440;
     font-weight: 400;
-    margin-bottom:28px;
+    margin-bottom: 28px;
     word-spacing: 3px;
 }
+
 .interest li,
-.project-list li
-{
-    margin-bottom:15px;
+.project-list li {
+    margin-bottom: 15px;
 }
-.download
-{
-    width:100px;
-    height:100px;
-    background-color:#335384;
+
+.download {
+    width: 100px;
+    height: 100px;
+    background-color: #335384;
     border-radius: 50%;
     float: right;
     margin-right: -65px;
     margin-bottom: -45px;
-   
+
 }
-.download a 
-{
-    margin-top:8px;
-   float: left;
-   margin-left:20px;
+
+.download a {
+    margin-top: 8px;
+    float: left;
+    margin-left: 20px;
 }
-.download a i
-{
-    margin-top:15px;
+
+.download a i {
+    margin-top: 15px;
     color: #e9e9e9de;
-    font-size:23px;
+    font-size: 23px;
 }
+
 /* media print */
-@media print{
-    body{
-         -webkit-filter: drop-shadow(0.5px 0.5px 4px #33538463);
+@media print {
+    body {
+        -webkit-filter: drop-shadow(0.5px 0.5px 4px #33538463);
     }
-    .container
-    {
+
+    .container {
         visibility: visible;
 
     }
 }
+
 /* webkit to print background color */
 body {
     -webkit-print-color-adjust: exact !important;
-  }
+}
